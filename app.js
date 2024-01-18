@@ -34,15 +34,15 @@ function addTask() {
 }
 
 // Function to create a new task element
-function addTaskElement(taskText) {
-    const taskElement = document.createElement('div');
-    taskElement.className = 'task';
-    taskElement.innerHTML = `
-        <span>${taskText}</span>
-        <button onclick="removeTask(this)">Remove</button>
-    `;
-    todoList.appendChild(taskElement);
-}
+// function addTaskElement(taskText) {
+//     const taskElement = document.createElement('div');
+//     taskElement.className = 'task';
+//     taskElement.innerHTML = `
+//         <span>${taskText}</span>
+//         <button onclick="removeTask(this)">Remove</button>
+//     `;
+//     todoList.appendChild(taskElement);
+// }
 
 // Function to remove a task
 function removeTask(buttonElement) {
